@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5vl:7b",
+  "scenario": "general",
+  "dir": "C:/tmp/vfx-smoke2",
+  "pass": 1,
+  "fail": 0,
+  "results": [
+    {
+      "image": "scene_missing_texture.png",
+      "status": "PASS",
+      "findings": "no rendering anomalies observed",
+      "secs": 35.9
+    }
+  ],
+  "generated_at": "2026-07-13T06:29:24"
+}

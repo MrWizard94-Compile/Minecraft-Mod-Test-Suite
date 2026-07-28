@@ -1,0 +1,26 @@
+{
+  "mode": "deterministic pixel-scan",
+  "pass": 1,
+  "fail": 2,
+  "results": [
+    {
+      "image": "clean_sky.png",
+      "status": "PASS",
+      "findings": "no rendering anomalies detected",
+      "secs": 0.0
+    },
+    {
+      "image": "missing_texture.png",
+      "status": "FAIL",
+      "findings": "MISSING TEXTURE: 50.0% of pixels are near #FF00FF magenta (Minecraft missing-texture placeholder)",
+      "secs": 0.0
+    },
+    {
+      "image": "scene_missing_texture.png",
+      "status": "FAIL",
+      "findings": "MISSING TEXTURE: 0.8% of pixels are near #FF00FF magenta (Minecraft missing-texture placeholder)",
+      "secs": 0.0
+    }
+  ],
+  "generated_at": "2026-07-13T11:04:33"
+}

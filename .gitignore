@@ -1,0 +1,8 @@
+# Generated Python state and credentials are local-only.
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key

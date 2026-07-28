@@ -1,0 +1,32 @@
+{
+  "model": "qwen2.5vl:7b",
+  "scenario": "general",
+  "tiles": "2x2",
+  "dir": "C:/tmp/vfx-smoke",
+  "pass": 0,
+  "fail": 3,
+  "results": [
+    {
+      "image": "clean_sky.png",
+      "status": "FAIL",
+      "regions": 5,
+      "findings": "[full] Missing texture placeholder on a surface (Magenta/Pink-and-Black checkerboard).",
+      "secs": 216.7
+    },
+    {
+      "image": "missing_texture.png",
+      "status": "FAIL",
+      "regions": 5,
+      "findings": "[full] Missing texture placeholder (repeating MAGENTA/PINK-and-BLACK checkerboard) on surface.; [r0c0] Missing texture placeholder (repeating MAGENTA/PINK-and-BLACK checkerboard) on surface.; [r0c1] Missing texture placeholder (repeating MAGENTA/PINK-and-BLACK checkerboard) on surface.; [r1c0] Missing texture placeholder (Magenta/Pink-and-Black checkerboard) on surface.; [r1c1] Missing texture placeholder (repeating MAGENTA/PINK-and-BLACK checkerboard) on surface.",
+      "secs": 215.5
+    },
+    {
+      "image": "scene_missing_texture.png",
+      "status": "FAIL",
+      "regions": 5,
+      "findings": "[full] Missing texture placeholder on the rightmost gray block.; [r1c0] Missing texture placeholder on green surface (repeating MAGENTA/PINK-and-BLACK checkerboard); [r1c1] Missing texture placeholder on a surface (repeating MAGENTA/PINK-and-BLACK checkerboard)",
+      "secs": 200.9
+    }
+  ],
+  "generated_at": "2026-07-13T11:01:45"
+}

@@ -1,0 +1,7 @@
+# Normalize source text in Git while preserving Windows batch-file checkout endings.
+* text=auto
+*.bat text eol=crlf
+*.md whitespace=-trailing-space
+*.md.* whitespace=-trailing-space
+*.txt whitespace=-trailing-space
+.gitattributes text eol=lf

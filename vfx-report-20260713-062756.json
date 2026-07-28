@@ -1,0 +1,22 @@
+{
+  "model": "qwen2.5vl:7b",
+  "scenario": "general",
+  "dir": "C:/tmp/vfx-smoke",
+  "pass": 2,
+  "fail": 0,
+  "results": [
+    {
+      "image": "clean_sky.png",
+      "status": "PASS",
+      "findings": "no rendering anomalies observed",
+      "secs": 52.3
+    },
+    {
+      "image": "missing_texture.png",
+      "status": "PASS",
+      "findings": "no rendering anomalies observed",
+      "secs": 37.5
+    }
+  ],
+  "generated_at": "2026-07-13T06:27:56"
+}
